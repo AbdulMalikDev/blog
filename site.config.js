@@ -1,6 +1,8 @@
 module.exports = {
   // where it all starts -- the site's root Notion page (required)
-  rootNotionPageId: '78fc5a4b88d74b0e824e29407e9f1ec1',
+  // rootNotionPageId: '78fc5a4b88d74b0e824e29407e9f1ec1',
+  rootNotionPageId: '52c3039cb72941a28d129bb7905628f8',
+  // https://buildwithmalik.notion.site/TransitiveBullsh-it-52c3039cb72941a28d129bb7905628f8
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
@@ -32,7 +34,7 @@ module.exports = {
   imageCDNHost: null,
 
   // Utteranc.es comments via GitHub issue comments (optional)
-  utterancesGitHubRepo: null,
+  utterancesGitHubRepo: 'AbdulMalikDev/blog-issues',
 
   // whether or not to enable support for LQIP preview images (optional)
   // NOTE: this requires you to set up Google Firebase and add the environment
